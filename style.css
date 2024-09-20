@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.certificate-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo-section {
+    text-align: left;
+    margin-right: 50px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+   
+
+}
+
+.university-info {
+    text-align: center;
+    margin-right: 250px;
+
+    
+}
+
+.university-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.university-info p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.certificate-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.certificate-title h2 {
+    letter-spacing: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
