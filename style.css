@@ -83,7 +83,7 @@ body {
     width: 90%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    background-color: #ffffff;
+    background-color: #b12727;
     margin: 0;
     margin-left: 90px;
    
@@ -91,6 +91,7 @@ body {
 
 .info-table th {
     background-color: #cbccf5;
+    border: 1px solid black;
     font-size: 18px;
     text-align: center;
     padding: 10px;
@@ -109,4 +110,56 @@ body {
 .info-table{
     background-color: #ffffff;
     border-collapse: collapse;
+}
+
+
+.schedule-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin:  0;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 0px solid rgb(249, 249, 249);
+    padding: 8px;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: #cbccf5;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.sub-header th {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.schedule-table td {
+    vertical-align: top;
+}
+
+.schedule-table tr.total td {
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+.schedule-table td:nth-child(8) {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.schedule-table td:nth-child(1),
+.schedule-table td:nth-child(2),
+.schedule-table td:nth-child(3),
+.schedule-table td:nth-child(4),
+.schedule-table td:nth-child(5),
+.schedule-table td:nth-child(6),
+.schedule-table td:nth-child(7) {
+    text-align: center;
 }
