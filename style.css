@@ -92,7 +92,7 @@ body {
 .info-table th {
     background-color: #cbccf5;
     border: 1px solid black;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
 }
@@ -100,7 +100,7 @@ body {
 .info-table td {
     padding: 8px;
     border: 0px solid #ddd;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .info-table tr td:first-child {
@@ -118,7 +118,7 @@ body {
     border-collapse: collapse;
     margin:  0;
     margin-left: 90px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .schedule-table th, .schedule-table td {
@@ -162,4 +162,67 @@ body {
 .schedule-table td:nth-child(6),
 .schedule-table td:nth-child(7) {
     text-align: center;
+}
+
+.note {
+    text-align: left;
+    margin-left: 105px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fees-table, .scheds {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-left: 90px;
+}
+.fees-table tr.total{
+    border: 1px solid black;
+    text-align: center
+}
+.scheds td, .scheds th {
+  border: 1px solid black;
+  padding: 8px;
+}
+.fees-table th, .scheds th {
+  background-color: #cbccf5;
+}
+.refund ol {
+  padding-left: 20px;
+}
+.refund, .payment{
+    margin-right: 150px;
+    border-collapse: collapse;
+    font-size: 20px;
+    
+}
+.right-side ol li{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(92, 94, 94);
+    font-family: "Courier New", Courier, monospace;    
+}
+
+.right-side ol{
+    margin-bottom: 60px;
+}
+
+.refund h3{
+    text-align: center;
+}
+
+.payment{
+    margin-top: 170px;
+}
+
+.Approved{
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
