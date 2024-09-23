@@ -179,6 +179,7 @@ body {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid black;
+  margin-left: 40px;
   
 }
 .fees-table tr.total{
@@ -196,7 +197,8 @@ body {
   padding-left: 20px;
 }
 .refund, .payment{
-    margin-right: 150px;
+    width: 70%;
+    margin-right: 20px;
     border-collapse: collapse;
     font-size: 20px;
     
@@ -211,7 +213,7 @@ body {
 }
 
 .right-side ol{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .refund h3{
@@ -219,7 +221,7 @@ body {
 }
 
 .payment{
-    margin-top: 170px;
+    margin-top: 110px;
 }
 
 .Approved{
@@ -237,10 +239,20 @@ footer{
     margin-bottom: 20px;
     background-color:rgb(203, 204, 245);
 }
+footer p{
+    padding: 1px;
+}
 
 .whole-details{
     border: 2px solid black;
     border-collapse: collapse;
     margin-right: 90px;
     margin-left: 90px;
+}
+
+.header-table{
+    border-top: 1px solid black;
+}
+.sub-header{
+    border-bottom: 1px solid black;
 }
