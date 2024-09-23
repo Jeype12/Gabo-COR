@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10;
     align-items: center;
+
    
 }
 
@@ -80,12 +81,12 @@ body {
 }
 
 .info-table {
-    width: 90%;
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: #b12727;
-    margin: 0;
-    margin-left: 90px;
+    
+    
    
 }
 
@@ -114,10 +115,10 @@ body {
 
 
 .schedule-table {
-    width: 90%;
+    width: 100%;
     border-collapse: collapse;
     margin:  0;
-    margin-left: 90px;
+    margin-left: auto;
     font-size: 20px;
 }
 
@@ -178,7 +179,7 @@ body {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid black;
-  margin-left: 90px;
+  
 }
 .fees-table tr.total{
     border: 1px solid black;
@@ -229,7 +230,17 @@ body {
 
 footer{
     text-align: center;
-    background-color: #cbccf5;
     border: 1px solid black;
     font-size: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    background-color:rgb(203, 204, 245);
+}
+
+.whole-details{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-right: 90px;
+    margin-left: 90px;
 }
